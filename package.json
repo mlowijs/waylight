@@ -1,0 +1,15 @@
+{
+  "name": "waylight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron --enable-features=UseOzonePlatform --ozone-platform=wayland .",
+    "debug": "electron . -- -d"
+  },
+  "author": "mlowijs@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^12.0.0-beta.18"
+  }
+}
